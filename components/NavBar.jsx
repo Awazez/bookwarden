@@ -8,10 +8,8 @@ import styles from '@/styles/Home.module.css'
 function NavBar() {
   return (
     <>
-    	<header className={styles.header}>
+    	<div className={styles.navContainer}>
             <Image src={BookwardenLogo} alt="Logo Bookwarden" className={styles.logo}/>
-	</header> 
-    <div className={styles.container}>
     </div>
     </>
   )

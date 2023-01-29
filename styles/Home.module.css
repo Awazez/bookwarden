@@ -1,13 +1,132 @@
-.header {
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&display=swap');
+
+.title {
+  color: #03314B;
+  font-size: 26px;
+  font-weight: 800;
+  font-family: 'Syne', sans-serif;
+}
+
+.titleJustify {
+  color: #03314B;
+  font-size: 26px;
+  font-weight: 800;
+  width: 700px;
+  margin-left: -100px;
+  font-family: 'Syne', sans-serif;
   display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  width: auto;
-	background-color: white;
-} 
+  text-align: center;
+}
+
+.title2 {
+  color: #03314B;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Syne', sans-serif;
+}
+
+.title3 {
+  color: #03314B;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: 'Syne', sans-serif;
+}
+
+.p {
+  color: #03314B;
+  font-size: 20px;
+  font-weight: 400;
+  width: 300px;
+  height: 100px;
+  font-family: 'Syne', sans-serif;
+  text-align: center;
+}
+
+.button {
+  width: 252px;
+  height: 32px;
+  margin-top: 10px;
+  font-size: 13px;
+  font-weight: 700;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color: #2D1A79;
+  font-family: 'Syne', sans-serif;
+
+}
+
+.assets1{
+  width: 550px;
+  height: 432px;
+}
+
+.assetCommercial{
+  width: 100px;
+  height: 100px;
+}
+
+
 
 .logo {
   color: black;
-  width: 145px;
-  height: 140px;
 }
+
+.containerAsset {
+  color: black;
+  margin-left: 50px;
+}
+
+
+
+.commercialAsset {
+  width: 70px;
+
+}
+
+.navContainer {
+  height: 80px;
+  margin-left: -890px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.HeroHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.containerHeader {
+  display: flex;
+  flex-direction: column;
+}
+
+.commercialContainer {
+  height: 50px;
+  margin-left: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.commercialContainer2 {
+  height: 50px;
+  margin-left: -80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.assetContainer {
+  height: 50px;
+  margin-left: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
