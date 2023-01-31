@@ -14,8 +14,6 @@ function CommercialBar() {
 <br></br>
 <br></br>
 <br></br>
-<br></br>
-<br></br>
     <div className={styles.commercialContainer}>
     <div className={styles.titleJustify}>Apprendre l’informatique par l’écoute ou la lecture</div>
     <br></br>
@@ -57,7 +55,7 @@ function CommercialBar() {
             Rapide
             </div>
             <div className={styles.p}>
-            Optimiser votre apprentissage 
+            Optimiser votre apprentissage par l'écoute
             </div>
         </div>
         

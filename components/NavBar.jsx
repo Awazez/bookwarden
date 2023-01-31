@@ -8,7 +8,7 @@ import styles from '@/styles/Home.module.css'
 function NavBar() {
   return (
     <>
-    	<div className={styles.navContainer}>
+    	<div className={styles.navbar}>
             <Image src={BookwardenLogo} alt="Logo Bookwarden" className={styles.logo}/>
     </div>
     </>

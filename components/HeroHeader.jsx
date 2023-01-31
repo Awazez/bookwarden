@@ -5,7 +5,7 @@ import assets1 from '../assets/assets1.svg'
 function HeroHeader() {
   return (
     <>
-    <div className={styles.HeroHeader}>
+    <div className={styles.heroHeader}>
     <div className={styles.containerHeader}>
     <div className={styles.title}>LA CONNAISSANCE
     <br></br> EN UN CLICK 

@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&display=swap');
 
+/*
+TITLES & Paragraph
+*/
 .title {
   color: #03314B;
   font-size: 26px;
@@ -12,7 +15,7 @@
   font-size: 26px;
   font-weight: 800;
   width: 700px;
-  margin-left: -100px;
+  margin-left: 20px;
   font-family: 'Syne', sans-serif;
   display: flex;
   text-align: center;
@@ -42,6 +45,10 @@
   text-align: center;
 }
 
+/*
+button & input 
+*/
+
 .button {
   width: 252px;
   height: 32px;
@@ -56,6 +63,21 @@
 
 }
 
+.input {
+  width: 500px;
+  height: 45px;
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: none;
+  font-family: 'Syne', sans-serif;
+
+}
+
+/*
+Assets
+*/
 .assets1{
   width: 550px;
   height: 432px;
@@ -66,47 +88,53 @@
   height: 100px;
 }
 
+.commercialAsset {
+  width: 150px;
+  margin-left: -30px;
 
+}
 
 .logo {
   color: black;
 }
 
-.containerAsset {
-  color: black;
-  margin-left: 50px;
-}
+/*
+Navbar
+*/
 
-
-
-.commercialAsset {
-  width: 70px;
-
-}
-
-.navContainer {
+.navbar {
   height: 80px;
-  margin-left: -890px;
+  margin-left: -815px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.HeroHeader {
+/*
+HeroHeader
+*/
+
+.heroHeader {
+  margin-left: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 
 .containerHeader {
   display: flex;
   flex-direction: column;
 }
 
+.containerAsset {
+  margin-left: 80px;
+}
+/*
+CommercialBar
+*/
+
 .commercialContainer {
-  height: 50px;
-  margin-left: 60px;
+  margin-left: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -114,8 +142,6 @@
 }
 
 .commercialContainer2 {
-  height: 50px;
-  margin-left: -80px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -123,10 +149,25 @@
 
 .assetContainer {
   height: 50px;
-  margin-left: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 
+/*
+CommercialSection
+*/
+
+.commercialSection {
+  margin-left: -100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerSection {
+  margin-left: 500px;
+  width: 300px;
+  margin-left: 100px;
+}
