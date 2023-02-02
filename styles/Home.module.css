@@ -50,8 +50,8 @@ button & input
 */
 
 .button {
-  width: 252px;
-  height: 32px;
+  width: 342px;
+  height: 47px;
   margin-top: 10px;
   font-size: 13px;
   font-weight: 700;
@@ -164,6 +164,10 @@ CommercialSection
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.mailsection {
+  width: 1000px;
 }
 
 .containerSection {
