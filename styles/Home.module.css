@@ -175,3 +175,9 @@ CommercialSection
   width: 300px;
   margin-left: 100px;
 }
+
+.footerSection {
+  background-color: #2D1A79;
+  width: 100%;
+  height: 400px;
+}

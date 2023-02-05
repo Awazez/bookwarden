@@ -8,6 +8,7 @@ import CommercialBar from "@/components/CommercialBar"
 import CommercialSection from "@/components/CommercialSection"
 import MailSection from "@/components/MailSection"
 import BookSection from '@/components/BookSection'
+import Footer from '@/components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -24,9 +25,9 @@ export default function Home() {
       <HeroHeader/>
       <CommercialBar/>
       <CommercialSection/>
-      <MailSection/>
       <BookSection/>
-      
+      <MailSection/>
+      <Footer/>
     </>
   )
 }
