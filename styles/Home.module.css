@@ -1,38 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap');
 /*
 TITLES & Paragraph
 */
 .title {
   color: #03314B;
-  font-size: 26px;
+  font-size: 40px;
   font-weight: 800;
-  font-family: 'Syne', sans-serif;
-}
-
-.titleJustify {
-  color: #03314B;
-  font-size: 26px;
-  font-weight: 800;
-  width: 700px;
-  margin-left: 20px;
-  font-family: 'Syne', sans-serif;
-  display: flex;
-  text-align: center;
+  font-family: 'Poppins', sans-serif;
 }
 
 .title2 {
   color: #03314B;
-  font-size: 20px;
-  font-weight: 700;
-  font-family: 'Syne', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
 }
 
 .title3 {
   color: #03314B;
   font-size: 22px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+}
+
+.title4 {
+  color: #03314B;
+  font-size: 14px;
   font-weight: 700;
   font-family: 'Syne', sans-serif;
+}
+
+
+.titleJustify {
+  color: #03314B;
+  font-size: 30px;
+  font-weight: 700;
+  width: 700px;
+  margin-left: 20px;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  text-align: center;
+}
+
+.titleBloc {
+  color: #03314B;
+  font-size: 36px;
+  font-weight: 400;
+  font-family: 'Syne', sans-serif;
+  margin-bottom: 50px;
+  margin-left: 10px;
 }
 
 .p {
@@ -115,7 +132,7 @@ HeroHeader
 */
 
 .heroHeader {
-  margin-left: 100px;
+  margin-left: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -159,6 +176,75 @@ CommercialBar
 CommercialSection
 */
 
+.blocText .titleBloc {
+  font-weight: normal;
+  animation: boldify 20s infinite;
+}
+
+.blocText .titleBloc:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.blocText .titleBloc:nth-child(2) {
+  animation-delay: 4s;
+}
+
+.blocText .titleBloc:nth-child(3) {
+  animation-delay: 8s;
+}
+
+.blocText .titleBloc:nth-child(4) {
+  animation-delay: 12s;
+}
+
+.blocText .titleBloc:nth-child(5) {
+  animation-delay: 16s;
+}
+
+@keyframes boldify {
+  0% {
+    color: #FF7A00;
+
+  }
+  100% {
+  }
+}
+
+
+
+.blocContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 125px;
+}
+
+.bloc {
+  width: 430px;
+  height: 415px;
+  padding: 30px;
+  background-color: #F1F1F1;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: 'Syne', sans-serif;
+}
+
+
+.blocColor {
+  color: #FF7A00;
+}
+
+.blocText {
+  width: 500px;
+  height: 415px;
+  background-color: white;
+  margin-bottom: 145px;
+}
+
+.blocSeparation {
+  margin-bottom: 40px;
+}
+
 .commercialSection {
   margin-left: -100px;
   display: flex;
@@ -181,3 +267,82 @@ CommercialSection
   width: 100%;
   height: 400px;
 }
+
+/*
+Carousel-section
+*/
+.carousel {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.carousel__books {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: hidden;
+}
+
+.carousel__book {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.7;
+  transition: opacity 0.5s;
+}
+
+.carousel__book.active {
+  opacity: 1;
+}
+
+.carousel__book-info {
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 0 0 20px 20px;
+}
+
+.carousel__book-title {
+  margin: 0;
+}
+
+.carousel__book-svg {
+  position: absolute;
+  top: 50%;
+  left: -5%;
+  transform: translateY(-50%);
+  }
+  
+  .carousel__button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  }
+  
+  .carousel__button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .carousel__button--prev {
+  left: 0;
+  padding: 1rem;
+  border-radius: 0 10px 10px 0;
+  }
+  
+  .carousel__button--next {
+  right: 0;
+  padding: 1rem;
+  border-radius: 10px 0 0 10px;
+  }
