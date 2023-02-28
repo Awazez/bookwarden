@@ -8,7 +8,7 @@ function HeroHeader() {
     <div className={styles.heroHeader}>
     <div className={styles.containerHeader}>
     <div className={styles.title}>LA CONNAISSANCE
-    <br></br> EN UN CLICK 
+    <br></br> EN UN CLIC 
     </div>
     <br></br>
     <div className={styles.title2}>

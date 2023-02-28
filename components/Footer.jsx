@@ -1,7 +1,6 @@
-
+import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
-
-
+import logoSmall from '../assets/logoSmall.svg'
 
 function Footer() {
   return (
@@ -10,8 +9,10 @@ function Footer() {
 <br></br>
 <br></br>
 <br></br>
-    <div className={styles.footerSection}>  
-        </div> 
+  
+    <div className={styles.containerAsset}>
+            <Image src={logoSmall} alt="Logo Bookwarden"/>
+    </div>
     </>
   )
 }
